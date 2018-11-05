@@ -11,19 +11,21 @@ public class Singno {
     
     public void operacion(){
         
-   double num1;
+
+    int num1;
     System.out.println("tecle numero");
-    num1=ler.nextDouble();
+    num1=ler.nextInt();
     
     if (num1>0){
-        System.out.println("+ = positivo");
+        System.out.println("+");
     } 
         else if (num1<0){
-                System.out.println("- = negativo");
+                System.out.println("-");
                 }
     
         else 
-            System.out.println("0 = cero");
+            System.out.println("0");
+
     }
        
 }
