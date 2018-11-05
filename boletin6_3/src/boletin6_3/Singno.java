@@ -12,9 +12,9 @@ public class Singno {
     public void operacion(){
         
 
-    int num1;
+    double num1;
     System.out.println("tecle numero");
-    num1=ler.nextInt();
+    num1=ler.nextDouble();
     
     if (num1>0){
         System.out.println("+");
